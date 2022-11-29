@@ -1,8 +1,8 @@
 import Review from "./Review"
-import Reviews from "./data"
+import reviews from "./data"
 
 
 export {
     Review,
-    Reviews
+    reviews
 }

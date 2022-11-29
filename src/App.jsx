@@ -6,8 +6,13 @@ function App() {
 
   return (
     <main>
-      <h2>reviews project setup</h2>
-      <Review />
+      <section className='container'>
+        <div className='title'>
+          <h2>Our Reviews</h2>
+          <div className='underline'/>
+        </div>
+        <Review />
+      </section>
     </main>
   )
 }
